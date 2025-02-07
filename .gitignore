@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# I do not want to push generated data files, some of them are too big, such as:
+*.tif 
+*.xyz
+*.asc
+*.laz
+*.las
