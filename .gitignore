@@ -177,3 +177,5 @@ cython_debug/
 *.asc
 *.laz
 *.las
+*.LAZ 
+*.LAS
