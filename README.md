@@ -10,6 +10,7 @@
 - [File Structure](#file-structure)
 - [Requirements](#requirements)
 - [Usage Instructions](#usage-instructions)
+- [Resource](#resources)
 - [License](#license)
 - [Contact](#contact)
 
