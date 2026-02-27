@@ -75,20 +75,23 @@ No local installation is required. A Google account is needed to run the noteboo
    git clone [https://github.com/Jinhu-Wang/LiDAR_Vegetation_Metrics.git](https://github.com/Jinhu-Wang/LiDAR_Vegetation_Metrics.git)
    cd LiDAR_Vegetation_Metrics
    ```
-2. **Launch Jupyter Notebook or JupyterLab:**
+   #Using Git as a tool to download and clone the repository.#
+   #Or download directly from GitHub repository# 
+   
+3. **Launch Jupyter Notebook or JupyterLab:**
    ```bash
    jupyter notebook
    # OR
    jupyter lab
    ```
-3. Navigate to the `Local/` directory in the Jupyter interface.
-4. Open the notebook of your choice, adjust the input file paths to point to your local `.las` or `.laz` LiDAR datasets, and run the cells sequentially.
+4. Navigate to the `Local/` directory in the Jupyter interface.
+5. Open the notebook of your choice, adjust the input file paths to point to your local `.las` or `.laz` LiDAR datasets, and run the cells sequentially.
 
 ### Option 2: Running via Google Colab
 1. Navigate to the `Colab/` folder in this GitHub repository.
 2. Click on the notebook you wish to use.
 3. Click the **"Open in Colab"** badge (if available) or simply head to [Google Colab](https://colab.research.google.com/), select the "GitHub" tab, and paste the URL of the notebook.
-4. Mount your Google Drive (if your LiDAR datasets are stored there) or upload your `.las`/`.laz` files directly to the Colab temporary storage.
+4. Mount your Google Drive (if your LiDAR datasets are stored there) or upload your `.las`/`.laz` files directly to the Colab temporary storage (Upload to your own GoogleDrive).
 5. Run the cells sequentially. Ensure you run the dependency installation cells first.
 
 ---
